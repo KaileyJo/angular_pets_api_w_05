@@ -1,0 +1,38 @@
+body {
+    background-image: url("http://cuzimage.com/images/background-barn-wood.");
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 15px;
+}
+
+img {
+    max-height: 700px;
+    width: auto;
+}
+
+span {
+    font-weight: bold;
+}
+
+.box {
+    background-color: #aaa;
+    opacity: .8;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header, li {
+    background-color: #aaa;
+    opacity: .8;
+    border-radius: 20px;
+}
+
+.header {
+    padding: 20px;
+}
+
+.shelters {
+    margin: 15px;
+    padding: 15px;
+}

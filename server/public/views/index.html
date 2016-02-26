@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Build a Barn!</title>
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <!--Angular-->
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/barnyardController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/horseController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/pigController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/sheltersController.js"></script>
+</head>
+<body ng-app="myApp">
+    <h1 class="col-md-8 col-md-offset-2 header">The first step in your journey to your very own Farm Fantasy, a
+        reality!</h1>
+    <div ng-include="'/views/templates/nav.html'"></div>
+    <main ng-view></main>
+</body>
+</html>

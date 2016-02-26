@@ -1,0 +1,22 @@
+<!--<div class="row col-md-offset-4 col-md-4">-->
+<div class="box">
+<h2>Pretty Ponies</h2>
+<h3>This {{horse.breeds.breed.$t}}'s name is: {{horse.name.$t}}</h3>
+</div>
+<!--</div>-->
+<div class="row">
+    <div class="col-md-4 box">
+        <p><span>Age:</span> {{horse.age.$t}}</p>
+        <p><span>Mixed?:</span> {{horse.mix.$t}}</p>
+        <p><span>Gender:</span> {{horse.sex.$t}}</p>
+        <p><span>Size:</span> {{horse.size.$t}}</p>
+        <p><span>Contact Number:</span> {{horse.contact.phone.$t}}</p>
+    </div>
+    <div class="col-md-4">
+        <div><img ng-src="{{horse.media.photos.photo[2].$t}}" /></div>
+    </div>
+    <div class="col-md-3 box">
+        <p><span>About Me:</span> {{horse.description.$t}}</p>
+    </div>
+    <div class="col-md-1"></div>
+</div>

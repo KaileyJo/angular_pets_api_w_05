@@ -1,0 +1,20 @@
+<div class="box">
+<h2>And this little piggy...!</h2>
+<h3>This {{pig.breeds.breed.$t}}'s name is: {{pig.name.$t}}</h3>
+</div>
+<div class="row">
+    <div class="col-md-4 box">
+        <p><span>Age:</span> {{pig.age.$t}}</p>
+        <p><span>Mixed?:</span> {{pig.mix.$t}}</p>
+        <p><span>Gender:</span> {{pig.sex.$t}}</p>
+        <p><span>Size:</span> {{pig.size.$t}}</p>
+        <p><span>Contact Number:</span> {{pig.contact.phone.$t}}</p>
+    </div>
+    <div class="col-md-4">
+        <div><img ng-src="{{pig.media.photos.photo[2].$t}}" /></div>
+    </div>
+    <div class="col-md-3 box">
+        <p><span>About Me:</span> {{pig.description.$t}}</p>
+    </div>
+    <div class="col-md-1"></div>
+</div>
